@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>My page title</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+            margin:0px;padding:0px;font-family:'Montserrat', sans-serif;
+        }
+        body{ text-align: center; background-color:#f5C700;  }
+        h1 { font: bold 20px vedana, sans-serif;}
+        h3{ font: bold 14px verdana, sans-serif; }
+        article, aside, figure, footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        article{ background: white; border: 1px solid #999999; padding: 20px; margin-bottom:15px; }
+        article footer {text-align:right;}
+        #pie{clear:both;text-align:center;padding:20px;border-top:2px solid #EF4836;}
+        #columna{ float:left;width:200px;margin:20px 0px; padding: 10px;background:#1abc9c;margin-right:10px; 
+                  height: 525px; }
+            #columna li {
+                list-style: none;
+            }
+        #menu{ background: #EF4836; padding:5px 15px; }
+        #menu li{ display: inline-block;list-style:none;padding:5px; }
+        #menu li { font:bold 14px verdana, sans-serif; color:white; cursor: pointer; }
+        #menu li:hover{ background-color: #F5C700}
+        #articulo {
+            float: right;
+            width: 900px;
+            margin: 20px 0px;
+            height: 525px;
+        }
+        #cabecera{background:#1abc9c; border: 1px solid #999999; padding: 20px;}
+        #cabecera h1 { color: white; }
+;    </style>
+    <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Here is our main header that is used across all the pages of our website -->
+
+    <header id="cabecera">
+        @*<h1>Header</h1>*@
+    </header>
+
+    <nav id="menu">
+        @*<ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our team</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>*@
+
+        <!-- A Search form is another commmon non-linear way to navigate through a website. -->
+
+        @*<form>
+            <input type="search" name="q" placeholder="Search query">
+            <input type="submit" value="Go!">
+        </form>*@
+    </nav>
+
+    <!-- Here is our page's main content -->
+    <main>
+
+        <!-- It contains an article -->
+        <article id="articulo">
+            <div class="col-sm-12 div_drop bg-primary">
+                <p>Soltar aqui</p>
+            </div>
+            <div class="col-sm-12 div_drop bg-primary">
+                <p>Soltar aqui</p>
+            </div>
+            <div class="col-sm-12 div_drop bg-primary">
+                <p>Soltar aqui</p>
+            </div>
+            @*<h2>Article heading</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+
+        <h3>subsection</h3>
+
+        <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+
+        <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
+
+        <h3>Another subsection</h3>
+
+        <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+
+        <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>*@
+        </article>
+
+        <!-- the aside content can also be nested within the main content -->
+        <aside id="columna">
+            <h2>Inputs</h2>
+            <div>
+                <input type="text" class="form-control" draggable="true" id="txtinputtext" />
+                <div draggable="true" id="div_select" class="col-sm-12 bg-danger">
+                    <select draggable="true" class="form-control cls_hijo" id="cbo_combo"></select>
+                </div>
+                
+
+            </div>
+
+            @*<ul>
+                    <li><a href="#">Oh I do like to be beside the seaside</a></li>
+                    <li><a href="#">Oh I do like to be beside the sea</a></li>
+                    <li><a href="#">Although in the North of England</a></li>
+                    <li><a href="#">It never stops raining</a></li>
+                    <li><a href="#">Oh well...</a></li>
+                </ul>*@
+        </aside>
+
+    </main>
+
+    <!-- And here is our main footer that is used across all the pages of our website -->
+
+    <footer id="pie">
+        <p>©Copyright 2050 by nobody. All rights reversed.</p>
+    </footer>
+
+    <script>
+        document.getElementById("txtinputtext").addEventListener("dragstart", handleDragStart, false);
+        document.getElementById("cbo_combo").addEventListener("dragstart", handleDragStart, false);
+        document.getElementById("div_select").addEventListener("dragstart", handleDragStart, false);
+
+        document.getElementById("articulo").addEventListener("dragover", handleDragOver, false);
+        document.getElementById("articulo").addEventListener("drop", handleDrop, false);
+        Array.from(document.getElementsByClassName("div_drop"))
+            .forEach(x => {
+                x.addEventListener("dragover", handleDragOver, false);
+                x.addEventListener("drop", handleDrop, false);
+            });
+
+        function handleDragStart(e) {
+            
+            // Target (this) element is the source node.
+            //this.style.opacity = '0.4';
+
+            //appAtxView.ovariables.dragSrcEl = this;
+
+            e.dataTransfer.effectAllowed = 'move';
+            let o = e.currentTarget;
+            let o_hijo = o;
+            console.log(o_hijo);
+            if (o.getElementsByClassName("cls_hijo").length > 0) {
+                console.log("dentro del if");
+                o_hijo = o.getElementsByClassName("cls_hijo")[0];
+            } 
+            ////e.dataTransfer.setData('text/html', this.outerHTML);
+            e.dataTransfer.setData('text/html', o_hijo.outerHTML);
+            //e.dataTransfer.setData("text", e.target.id);
+        }
+
+        function handleDragOver(e) {
+            
+            if (e.preventDefault) {
+                e.preventDefault(); // Necessary. Allows us to drop.
+            }
+
+            e.dataTransfer.dropEffect = 'move';  // See the section on the DataTransfer object.
+
+            return false;
+        }
+
+        function handleDrop(e) {
+            
+            // this/e.target is current target element.
+
+            if (e.stopPropagation) {
+                e.stopPropagation(); // Stops some browsers from redirecting.
+            }
+
+            ////// Set the source column's HTML to the HTML of the column we dropped on.
+            ////dragSrcEl.innerHTML = this.innerHTML;
+            ////this.insertAdjacentHTML("beforeend", e.dataTransfer.getData('text/html')); // = e.dataTransfer.getData('text/html');
+            this.innerHTML = e.dataTransfer.getData('text/html');
+
+            //let id = e.dataTransfer.getData("text");
+            //this.appendChild(document.getElementById(id));
+
+            return false;
+        }
+    </script>
+</body>
+

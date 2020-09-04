@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>My page title</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            text-align: initial;
+            background-color: #f5C700;
+        }
+
+        h1 {
+            font: bold 20px vedana, sans-serif;
+        }
+
+        h3 {
+            font: bold 14px verdana, sans-serif;
+        }
+
+        article, aside, figure, footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+
+        article {
+            background: white;
+            border: 1px solid #999999;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+
+            article footer {
+                text-align: right;
+            }
+
+        #pie_columns {
+            clear: both;
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid #EF4836;
+        }
+
+        #columna_columns {
+            float: left;
+            width: 200px;
+            margin: 20px 0px;
+            padding: 10px;
+            background: #1abc9c;
+            margin-right: 10px;
+            height: 525px;
+        }
+
+        #columna li {
+            list-style: none;
+        }
+
+        #menu_columns {
+            background: #EF4836;
+            padding: 5px 15px;
+        }
+
+        #menu_columns li {
+            display: inline-block;
+            list-style: none;
+            padding: 5px;
+        }
+
+        #menu_columns li {
+            font: bold 14px verdana, sans-serif;
+            color: white;
+            cursor: pointer;
+        }
+
+        #menu_columns li:hover {
+            background-color: #F5C700
+        }
+
+        #articulo_columns_3cero {
+            float: right;
+            width: 900px;
+            margin: 20px 0px;
+            height: 525px;
+        }
+
+        #cabecera_columns {
+            background: #1abc9c;
+            border: 1px solid #999999;
+            padding: 20px;
+        }
+
+        #cabecera_columns h1 {
+            color: white;
+        }
+
+        .cls_add_fila {
+            cursor: pointer;
+        }
+        
+        .cls_over_div_drop {
+            border: 2px solid #666;
+        }
+
+        .cls_input_drag:hover {
+            cursor: pointer;
+        }
+
+        .cls_backcolor_div_control_seleccionado {
+            background-color: limegreen;
+        }
+
+        .cls_div_dotted_dirreccionseleccionada {
+            border: 2px dotted #666;
+        }
+    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+
+<body id="body_columns_3cero" tabindex="0">
+    <!-- Here is our main header that is used across all the pages of our website -->
+    @*<header id="cabecera_columns">
+    </header>*@
+
+    <nav id="menu_columns">
+        <button class="btn btn-sm text-white" title="Ver código">
+            <span class="fa fa-code"></span>
+        </button>
+    </nav>
+
+    <!-- Here is our page's main content -->
+    <main>
+        <!-- It contains an article -->
+        <article id="articulo_columns_3cero" class="cls_articulo" style="max-height: 525px; overflow-y: auto;">
+            <!--USANDO BOOTSTRAP 4.3.1-->
+            <div>
+                <div class="card cls_div_form cls_div_form_0" data-divformgenerado="cls_div_form_0" draggable="true">
+                    <div class="card-header" contenteditable="true">
+                        <h3>Titulo</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="container">
+                            <div class="row cls_row_where_drop" id="div_row_where_drop">
+                                <p>Soltar aqui</p>
+                            </div>
+                            <div class="text-right cls_add_fila d-none">
+                                <span class="fa fa-plus cls_btn_add_fila" title="Agregar fila"></span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="text-left cls_divform_elegido_drop">
+                <p>Arrastrar aqui Form</p>
+            </div>
+
+        </article>
+
+        <!-- the aside content can also be nested within the main content -->
+        <aside id="columna_columns">
+            <h2>Inputs</h2>
+            <div class="" style="        text-align: initial !important;">
+                <span class="fa fa-columns cls_input_drag cls_configura_columnas" draggable="true"
+                      id="spn_columna" data-nrocolumnas="2" data-nrofilas="2" data-inputtype="columnafilas"></span>
+                <div class="d-none" style="font-size:12px !important;" id="div_section_columnasfilas">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="form-group row">
+                                        <label class="col-form-label col-sm-12">N° Columnas</label>
+                                        <div class="col-sm-12">
+                                            <input type="text" class="form-control" placeholder="N° Columnas" id="txtnrocolumas" value="2" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-form-label col-sm-12">N° Filas</label>
+                                        <div class="col-sm-12">
+                                            <input type="text" class="form-control" placeholder="N° Filas" id="txtnrofilas" value="2" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="fa fa-address-card cls_input_drag" draggable="true" data-inputtype="text"></span>
+            </div>
+        </aside>
+    </main>
+
+    <!-- And here is our main footer that is used across all the pages of our website -->
+    <footer id="pie_columns">
+        <p>©Copyright 2050 by Aquiles el espartano auuu auuu auuuuuuuuu. All rights reversed.</p>
+    </footer>
+
+    <script src="~/js/Prototipar/TerceroGlyiconsColumnasMin.js"></script>
+</body>
+</html>

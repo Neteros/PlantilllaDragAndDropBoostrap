@@ -1,0 +1,78 @@
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\bin\Debug\netcoreapp3.1\appsettings.json
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\bin\Debug\netcoreapp3.1\SamiPrototiparNetCore.exe
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\bin\Debug\netcoreapp3.1\SamiPrototiparNetCore.deps.json
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\bin\Debug\netcoreapp3.1\SamiPrototiparNetCore.runtimeconfig.json
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\bin\Debug\netcoreapp3.1\SamiPrototiparNetCore.runtimeconfig.dev.json
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\bin\Debug\netcoreapp3.1\SamiPrototiparNetCore.dll
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\bin\Debug\netcoreapp3.1\SamiPrototiparNetCore.pdb
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\bin\Debug\netcoreapp3.1\SamiPrototiparNetCore.Views.dll
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\bin\Debug\netcoreapp3.1\SamiPrototiparNetCore.Views.pdb
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.csprojAssemblyReference.cache
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.csproj.CoreCompileInputs.cache
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.MvcApplicationPartsAssemblyInfo.cache
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.RazorAssemblyInfo.cache
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.RazorAssemblyInfo.cs
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.AssemblyInfoInputs.cache
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.AssemblyInfo.cs
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.TagHelpers.input.cache
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.TagHelpers.output.cache
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.RazorCoreGenerate.cache
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.RazorTargetAssemblyInfo.cache
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.RazorTargetAssemblyInfo.cs
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.Views.pdb
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\staticwebassets\SamiPrototiparNetCore.StaticWebAssets.Manifest.cache
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\staticwebassets\SamiPrototiparNetCore.StaticWebAssets.xml
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.dll
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.pdb
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.genruntimeconfig.cache
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.csproj.CopyComplete
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Prototipar\Inicio.cshtml.g.cs
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Prototipar\SegundoColumnas.cshtml.g.cs
+C:\EDUARDO\TODO SOBRE AZURE\SamiPrototiparV1\SamiPrototiparNetCore\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Prototipar\TerceroGlyiconsColumnas.cshtml.g.cs
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\bin\Debug\netcoreapp3.1\SamiPrototiparNetCore.exe
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\bin\Debug\netcoreapp3.1\SamiPrototiparNetCore.deps.json
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\bin\Debug\netcoreapp3.1\SamiPrototiparNetCore.runtimeconfig.json
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\bin\Debug\netcoreapp3.1\SamiPrototiparNetCore.runtimeconfig.dev.json
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\bin\Debug\netcoreapp3.1\SamiPrototiparNetCore.dll
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\bin\Debug\netcoreapp3.1\SamiPrototiparNetCore.pdb
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\bin\Debug\netcoreapp3.1\SamiPrototiparNetCore.Views.dll
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\bin\Debug\netcoreapp3.1\SamiPrototiparNetCore.Views.pdb
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.csprojAssemblyReference.cache
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\staticwebassets\SamiPrototiparNetCore.StaticWebAssets.Manifest.cache
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\staticwebassets\SamiPrototiparNetCore.StaticWebAssets.xml
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.MvcApplicationPartsAssemblyInfo.cache
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.RazorAssemblyInfo.cache
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.RazorAssemblyInfo.cs
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.AssemblyInfoInputs.cache
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.AssemblyInfo.cs
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.TagHelpers.input.cache
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.TagHelpers.output.cache
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.RazorCoreGenerate.cache
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Prototipar\Inicio.cshtml.g.cs
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Prototipar\SegundoColumnas.cshtml.g.cs
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Prototipar\TerceroGlyiconsColumnas.cshtml.g.cs
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.RazorTargetAssemblyInfo.cache
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.RazorTargetAssemblyInfo.cs
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.Views.pdb
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.dll
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.pdb
+D:\Developer\DragAndDropBoostrap\PlantillaBoostrapDragAndDrop\SamiPrototiparNetCore\obj\Debug\netcoreapp3.1\SamiPrototiparNetCore.csproj.CopyComplete
