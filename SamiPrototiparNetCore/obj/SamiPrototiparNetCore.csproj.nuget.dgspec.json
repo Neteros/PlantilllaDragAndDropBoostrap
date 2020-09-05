@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Developer\\DragAndDropBoostrap\\PlantillaBoostrapDragAndDrop\\SamiPrototiparNetCore\\SamiPrototiparNetCore.csproj": {}
+    "D:\\Developer\\DragAndDropBoostrap\\PlantillaColaborativa\\PlantilllaDragAndDropBoostrap\\SamiPrototiparNetCore\\SamiPrototiparNetCore.csproj": {}
   },
   "projects": {
-    "D:\\Developer\\DragAndDropBoostrap\\PlantillaBoostrapDragAndDrop\\SamiPrototiparNetCore\\SamiPrototiparNetCore.csproj": {
+    "D:\\Developer\\DragAndDropBoostrap\\PlantillaColaborativa\\PlantilllaDragAndDropBoostrap\\SamiPrototiparNetCore\\SamiPrototiparNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Developer\\DragAndDropBoostrap\\PlantillaBoostrapDragAndDrop\\SamiPrototiparNetCore\\SamiPrototiparNetCore.csproj",
+        "projectUniqueName": "D:\\Developer\\DragAndDropBoostrap\\PlantillaColaborativa\\PlantilllaDragAndDropBoostrap\\SamiPrototiparNetCore\\SamiPrototiparNetCore.csproj",
         "projectName": "SamiPrototiparNetCore",
-        "projectPath": "D:\\Developer\\DragAndDropBoostrap\\PlantillaBoostrapDragAndDrop\\SamiPrototiparNetCore\\SamiPrototiparNetCore.csproj",
+        "projectPath": "D:\\Developer\\DragAndDropBoostrap\\PlantillaColaborativa\\PlantilllaDragAndDropBoostrap\\SamiPrototiparNetCore\\SamiPrototiparNetCore.csproj",
         "packagesPath": "C:\\Users\\sam_n\\.nuget\\packages\\",
-        "outputPath": "D:\\Developer\\DragAndDropBoostrap\\PlantillaBoostrapDragAndDrop\\SamiPrototiparNetCore\\obj\\",
+        "outputPath": "D:\\Developer\\DragAndDropBoostrap\\PlantillaColaborativa\\PlantilllaDragAndDropBoostrap\\SamiPrototiparNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
