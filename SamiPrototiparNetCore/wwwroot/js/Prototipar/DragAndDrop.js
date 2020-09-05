@@ -6,7 +6,7 @@
             objSource_delascolumnas: null,
             coordenadaInicialSeleccionadaJson: { fila: 0, columna: 0 },
             contadorInputSeleccionado: 0,
-            direccionInputSeleccionado: '', //// PARA INDICAR QUE LA DIRECCION SERA POR FILA O POR COLUMNA
+            direccionInputSeleccionado: '',
             arrNumeracionInputsSeleccionadosFila_o_Columna: [],
             boolIconsInputColumnasSeleccionado: false
         }
@@ -43,10 +43,13 @@
             this.classList.remove('cls_over_div_drop');
         }
 
+        // :pending
         function load() {
             ArrayElementos({ id: 'columna_columns', clase: 'cls_input_drag' })
                 .forEach(x => {
-                    x.addEventListener("dragstart", handleDragStart);
+                    x.addEventListener("dragstart", (event) => {
+                        handleDragStart(event,[])
+                    });
                     x.addEventListener("dragend", handlerDragEndIconsInput);
                 });
 
@@ -71,38 +74,41 @@
             handler_divform_elegido_drop();
         }
 
+        function arrayInicioFin(fin,inicio=1) {
+            let arr = [];
+            for (let _ini = 1; _ini <= fin; _ini++) {
+                arr.push(_ini)
+            }
+            return arr;
+        }
+
+        function getTemplateRow(nroFilas, nroColumnas) {
+            const arrFilas = arrayInicioFin(nroFilas);
+            return arrFilas.map(() => { return `<div class="form-group row div_drop" data-nrofila='${nroFilas}' data-nrocolumna='${nroColumnas}'>
+                            <p>Arrastrar aqui</p> </div>`}).join('');
+        }
+
+        function getTemplatesRow(nroColumna, nrofilas) {
+            const arrColumnas = arrayInicioFin(nroColumna);
+            return arrColumnas.map(columna => {
+               return `<div class="col cls_div_columnas_filas">
+                            ${ getTemplateRow(nrofilas, columna)}
+                        </div>`;
+            }).join('');            
+        }
+
         /*EMPIEZA EL ARRASTRE DE FILAS Y COLUMNAS*/
         function handleDragStart(e) {
             e.dataTransfer.effectAllowed = 'move';
             const o = e.currentTarget;
-            const tiene_clase_configuracolumna = o.classList.value.indexOf("cls_configura_columnas");
+            const esBotonConfigurarColumna = o.classList.contains("_botonConfigurarColumna");
             const [nrocolumnas, nrofilas, inputtype] = [o.getAttribute("data-nrocolumnas"), o.getAttribute("data-nrofilas"), o.getAttribute("data-inputtype")];
-
-            let html = "";
-
-            if (tiene_clase_configuracolumna >= 0) {
-                let fn_htmlfilas = function (nrofilas, nrocolumna) {
-                    let subhtml = '';
-                    for (var y = 1; y <= nrofilas; y++) {
-                        subhtml += `<div class="form-group row div_drop" data-nrofila='${y}' data-nrocolumna='${nrocolumna}'>
-                            <p>Arrastrar aqui</p> </div>`;
-                    };
-                    return subhtml;
-                }
-
-                for (var i = 1; i <= nrocolumnas; i++) {
-                    html += `<div class="col cls_div_columnas_filas">
-                            ${ fn_htmlfilas(nrofilas, i)}
-                        </div>`;
-                }
-
-                ovariables.boolIconsInputColumnasSeleccionado = true;
-            } else {
-
-                html = fn_get_html_seguninputtype(inputtype);
-            }
-
-            e.dataTransfer.setData('iconinputs', html);
+            
+            const template = esBotonConfigurarColumna
+                                ? getTemplatesRow(nrocolumnas, nrofilas)
+                                : fn_get_html_seguninputtype(inputtype); //:pending
+            if (esBotonConfigurarColumna)  ovariables.boolIconsInputColumnasSeleccionado = true;
+            e.dataTransfer.setData('iconinputs', template);
         }
         function handlerDragEndIconsInput(e) {
             ArrayElementos({ id: 'body_columns_3cero', clase: 'cls_over_div_drop' })
@@ -213,6 +219,7 @@
         async function handlerDrop_DivFormElegidoDrop(e) {
             //// SE PONE ESTO ovariables.objSource_delascolumnas PARA NO CRUZAR CON EL ARRASTRE DE SELECCION MULTIPLE DE LOS INPUTS
             if (ovariables.bool_ctrl_seleccionado && ovariables.objSource_delascolumnas === null) {
+                // :pending
                 let html_insert = `<br />
                                     <div class="text-left cls_divform_elegido_drop">
                                     <p>Arrastrar aqui Form</p>
@@ -354,6 +361,7 @@
 
 
         function fn_setearDefaultAlFinalizarDragDropSeleccionMultiple(divFormSource, divFormDestino) {
+            // :pending
             let arrInputSource = Array.from(divFormSource.getElementsByClassName('cls_input_delascolumnas'));
             let arrInputsDestino = Array.from(divFormDestino.getElementsByClassName('cls_input_delascolumnas'));
             let arrDivDooteadosSource = Array.from(divFormSource.getElementsByClassName('cls_div_dotted_dirreccionseleccionada'));
@@ -512,8 +520,7 @@
                                 //// FALTO QUITAR LA CLASE DE SELECCIONADO AL INPUT
                                 o.classList.remove('cls_input_selected');
                                 //// ACA RESTO POR QUE ARRIBA LO ESTOY SUMANDO
-                                ovariables.contadorInputSeleccionado--;
-                                alert('La direccion es solo por columna...!');
+                                ovariables.contadorInputSeleccionado--;                                
                             }
                         }
 
@@ -531,8 +538,7 @@
                                 //// FALTO QUITAR LA CLASE DE SELECCIONADO AL INPUT
                                 o.classList.remove('cls_input_selected');
                                 //// ACA RESTO POR QUE ARRIBA LO ESTOY SUMANDO
-                                ovariables.contadorInputSeleccionado--;
-                                alert('La direccion es solo por fila...!');
+                                ovariables.contadorInputSeleccionado--;                                
                             }
                         }
 
@@ -542,7 +548,7 @@
                         //// ACA RESTO POR QUE ARRIBA LO ESTOY SUMANDO
                         ovariables.contadorInputSeleccionado--;
                         //// ES DIFERENTE FILA Y DIFERENTE COLUMNA
-                        alert(`La direccion es solo por ${ovariables.direccionInputSeleccionado}...!`);
+                        
                     }
                 } else if (ovariables.contadorInputSeleccionado === 0) {
                     //// ESTABLECER LA COORDENADA INICIAL
@@ -586,6 +592,7 @@
                     Array.from(divForm.getElementsByClassName('cls_div_dotted_dirreccionseleccionada'))
                         .forEach((x, indice) => {
                             if (indice === 0) {
+                                // :pending
                                 html = `<div class='cls_div_deleteinput_selected'>
                                             <span class="fa fa-trash text-danger cls_spn_deleteinput_multiseleccion" title='Eliminar inputs seleccionados' style='cursor: pointer;'></span>
                                         </div>`;
@@ -601,6 +608,7 @@
                 }
             } else {
                 //// SI ES MENOR A 2
+                // :pending
                 Array.from(divForm.getElementsByClassName('cls_div_columnas_filas'))
                     .forEach(x => {
                         Array.from(x.getElementsByClassName('cls_div_deleteinput_selected'))
@@ -611,10 +619,12 @@
             }
         }
 
+        // :pending
         function handlerDeleteInputMultiseleccion(divForm) {
             divForm.getElementsByClassName('cls_spn_deleteinput_multiseleccion')[0].addEventListener('click', function (e) { let o = e.currentTarget; fn_deleteinput_multiseleccion(o, divForm); }, false);
         }
 
+        // :pending
         function fn_deleteinput_multiseleccion(o, divForm) {
             Array.from(divForm.getElementsByClassName('cls_input_selected'))
                 .forEach(x => {
@@ -640,6 +650,7 @@
                     divColumna.removeChild(x);
                 });
 
+            // :pending
             ovariables.coordenadaInicialSeleccionadaJson.fila = 0;
             ovariables.coordenadaInicialSeleccionadaJson.columna = 0;
             ovariables.contadorInputSeleccionado = 0;
@@ -647,6 +658,7 @@
             ovariables.arrNumeracionInputsSeleccionadosFila_o_Columna = [];
         }
 
+        // :pending
         function fn_set_color_input_seleccionado_control(o) {
             let div_parent = o.parentNode.parentNode;
             if (o.classList.value.indexOf("cls_input_selected") >= 0) {
@@ -656,13 +668,14 @@
             }
         }
 
+        // :pending
         function fn_solo_click_input_delascolumnas(divInput) {
             let divForm = divInput.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode;
-            //// cls_submenu_input = PARA EL BOTON ELIMINAR
+            
             let div_submenu = divInput.getElementsByClassName('cls_submenu_input')[0];
             let estado_inicial_submenu = div_submenu.classList.value.indexOf('d-none') < 0 ? true : false;
 
-            //// OCULTAR PRIMERO A TODOS LOS SUBMENUS
+            
             Array.from(divForm.getElementsByClassName('cls_submenu_input'))
                 .forEach(x => {
                     x.classList.add('d-none');
@@ -671,10 +684,10 @@
             let esta_visible_submenu = div_submenu.classList.value.indexOf('d-none');
 
             if (esta_visible_submenu < 0) {
-                //// ESTA VISIBLE
+                
                 div_submenu.classList.add('d-none');
             } else {
-                //// ESTA INVISIBLE
+                
                 if (estado_inicial_submenu) {
                     div_submenu.classList.add('d-none');
                 } else {
@@ -683,6 +696,7 @@
             }
         }
 
+        // :pending
         function fn_handler_delete_input(e) {
             let o = e.currentTarget;
             let div_form_group = o.parentNode.parentNode.parentNode;
@@ -694,6 +708,7 @@
             div_form_group.innerHTML = '<p>Arrastrar aqui</p>';
         }
 
+        // :pending
         function fn_add_fila_paracolumnas(e) {
             let o = e.currentTarget;
             let contenedor = o.parentNode.parentNode;
